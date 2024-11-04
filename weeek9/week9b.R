@@ -1,6 +1,0 @@
-#creating input data
-input<-mtcars[,c("mpg","wt","disp","hp")]
-#creating the relationshiip model
-Model<-lm(mpg~wt+disp+hp,data=input)
-#showing the Model
-print(Model)
